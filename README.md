@@ -1,3 +1,6 @@
+## Figma Design
+Link: https://www.figma.com/design/0V19E8XN1wbo38sx065cEr/BV-UI-Design?node-id=0-1&t=xzv6dbY5J6bVT83w-1
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
