@@ -2,7 +2,7 @@ import NavigationBar from "../../components/NavigationBar";
 
 export default function HomePage() {
   return (
-    <div className="bg-[#3A3A3A] min-h-screen text-white">
+    <div className="bg-[#2E2E2E] min-h-screen text-white">
       <NavigationBar></NavigationBar>
       <div className="w-full h-full flex flex-col items-start justify-start px-18 py-25">
         <div><img src="/LogoCube.png" alt="LogoPicture" className="w-35 h-auto"/></div>

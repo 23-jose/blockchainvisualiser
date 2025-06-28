@@ -12,7 +12,7 @@ export default function SearchBar() {
     };
 
     return (
-        <form onSubmit = {onSubmit} className="flex items-center border border-white rounded-md overflow-hidden max-w-md">
+        <form onSubmit = {onSubmit} className="flex items-center border border-white rounded-md overflow-hidden max-w-md bg-[#212121]">
             <input
                 type= "text"
                 value={search}
