@@ -1,6 +1,7 @@
 import NavigationBar from "../../../components/NavigationBar";
 import SearchBar from "../../../components/SearchBar";
 import TransactionList from "../../../components/TransactionList";
+import Button from "../../../components/Button";
 
 export default function BitcoinPage() {
   return (
@@ -12,7 +13,7 @@ export default function BitcoinPage() {
           <div>Latest Transactions</div>
           <div className="flex">
             <div className="pr-15">
-              Filters Button
+              <Button></Button>
             </div>
             <SearchBar></SearchBar></div>
         </div>  
