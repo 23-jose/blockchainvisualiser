@@ -8,7 +8,7 @@ export default function ImpactCard() {
             Energy<br />
             Spent
         </div>
-        <Link href="/impact/graph">
+        <Link href="/impact/metrics">
             <div className="flex justify-end pr-8 pb-8">
                 <IoIosArrowForward className="h-8 w-8" />
             </div>

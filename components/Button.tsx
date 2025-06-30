@@ -1,5 +1,4 @@
 "use client";
-import { IoSearch } from "react-icons/io5";
 
 export default function Button() {
     const onClick = () => {
@@ -10,7 +9,7 @@ export default function Button() {
     return (
         <button
             onClick={onClick}
-            className="flex items-center border border-white rounded-md overflow-hidden max-w-md bg-[#212121] px-12"
+            className="w-40 px-4 text-xl flex justify-center items-center border border-white rounded-md overflow-hidden bg-[#212121]"
         >
             Filters
         </button>

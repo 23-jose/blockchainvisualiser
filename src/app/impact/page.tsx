@@ -1,7 +1,7 @@
 import NavigationBar from "../../../components/NavigationBar";
 import ImpactCard from "../../../components/ImpactCard";
 
-export default function BitcoinPage() {
+export default function ImpactPage() {
   return (
     <div className="min-h-screen bg-[#2E2E2E] text-white">
       <NavigationBar></NavigationBar>

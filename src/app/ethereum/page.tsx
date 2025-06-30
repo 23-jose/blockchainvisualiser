@@ -3,7 +3,7 @@ import SearchBar from "../../../components/SearchBar";
 import TransactionList from "../../../components/TransactionList";
 import Button from "../../../components/Button";
 
-export default function BitcoinPage() {
+export default function EthereumPage() {
   return (
     <div className="min-h-screen bg-[#2E2E2E] text-white">
       <NavigationBar></NavigationBar>
