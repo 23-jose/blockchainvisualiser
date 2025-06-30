@@ -6,11 +6,6 @@ export default function Button() {
 
     const [showFilters, setFilters] = useState(false);
 
-    const onClick = () => {
-        console.log("Button clicked: "); 
-
-    }
-
     return (
         <>
             <button
