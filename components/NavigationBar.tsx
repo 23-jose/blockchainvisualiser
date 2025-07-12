@@ -6,14 +6,14 @@ export default function NavigationBar() {
             <div className="flex items-center">
                 <Link href="/" className="flex items-center space-x-2.5"> 
                     <img src="/LogoCube.png" alt="LogoPicture" className="w-8 h-auto"/>
-                    <span>BV</span>
+                    <p>BV</p>
                 </Link>
             </div>
-            <div className="flex gap-6 md:gap-16">
+            <nav className="flex gap-6 md:gap-16">
                 <Link href="/impact">Impact</Link>
                 <Link href="/ethereum">Ethereum</Link>
                 <Link href="/bitcoin">Bitcoin</Link>
-            </div>
+            </nav>
         </nav>
     );
 }
