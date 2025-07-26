@@ -17,7 +17,7 @@ export default function BitcoinPage() {
             </div>
         </div>
       </div>
-      <div className="h-full w-full px-8 md:px-18 py-8">
+      <div className="h-full w-full px-8 md:px-18 py-12">
         <TransactionList></TransactionList> 
       </div>
     </main>
