@@ -10,7 +10,7 @@ export default function Filters({ onClose }: FiltersProps) {
       <div className="bg-[#2E2E2E] p-6 rounded-xl text-white w-full max-w-lg">
         <div className="text-2xl items-center mb-6">Filters</div>
         <div className="flex flex-col gap-6"></div>
-            <div className="flex flex-col sm:flex-row sm:justify-between s,:gap-4 gap-3">
+            <div className="flex flex-col justify-between gap-6 text-center">
                 <label className="flex items-center gap-2">
                     <input type="checkbox" className="accent-white" />
                     Water Usage
