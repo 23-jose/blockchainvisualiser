@@ -2,6 +2,7 @@ import NavigationBar from "../../../components/NavigationBar";
 import SearchBar from "../../../components/SearchBar";
 import TransactionList from "../../../components/TransactionList";
 import Button from "../../../components/Button";
+import transactions from "../../../data/bitcoin.json"; 
 
 export default function BitcoinPage() {
   return (
@@ -18,7 +19,7 @@ export default function BitcoinPage() {
         </div>
       </div>
       <div className="h-full w-full px-8 md:px-18 py-12">
-        <TransactionList></TransactionList> 
+        <TransactionList dataFile={transactions}></TransactionList> 
       </div>
     </main>
   );
