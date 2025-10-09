@@ -1,18 +1,23 @@
 import Button from "../../../../components/Button";
 import NavigationBar from "../../../../components/NavigationBar";
+import EnergyGraph from "../../../../components/EnergyGraph";
 import { MdArrowBackIosNew } from "react-icons/md";
 import Link from "next/link";
+import type { DataPoint } from "../../../../components/EnergyGraph";
+import graphDataFile from "../../../../data/graphDataPoints.json";
+
+const graphData = graphDataFile as DataPoint[];
 
 export default function GraphPage() {
   return (
     <div className="min-h-screen bg-[#2E2E2E] text-white">
       <NavigationBar></NavigationBar>
-      <div className="w-full max-w-7xl mx-auto flex items-center justify-between px-4 md:px-12 pt-20 pb-12">
-        <Link href="/impact"><div className="text-3xl"><MdArrowBackIosNew /></div></Link>
-        <Button></Button>
-      </div>
-      <div className="bg-red-500 h-full w-full flex items-center justify-center px-18 py-20">
-        <div>Graph here</div>
+      <div className="h-full w-full flex items-center justify-center px-18 py-20">
+        <div><EnergyGraph
+          dataFile={graphData}
+          color="#00C49F"
+          title="Blockchain Energy Consumption"></EnergyGraph>
+        </div>
       </div>
     </div>
   );

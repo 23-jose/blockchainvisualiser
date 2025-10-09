@@ -1,8 +1,8 @@
-import NavigationBar from "../../../components/NavigationBar";
-import SearchBar from "../../../components/SearchBar";
-import TransactionList from "../../../components/TransactionList";
-import Button from "../../../components/Button";
-import transactions from "../../../data/bitcoin.json"; 
+import NavigationBar from "../../../../components/NavigationBar";
+import SearchBar from "../../../../components/SearchBar";
+import TransactionList from "../../../../components/TransactionList";
+import Button from "../../../../components/Button";
+import transactions from "../../../../data/bitcoin.json"; 
 
 export default function BitcoinPage() {
   return (

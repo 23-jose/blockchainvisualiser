@@ -10,8 +10,7 @@ export default function NavigationBar() {
                 </Link>
             </div>
             <nav className="flex gap-6 md:gap-16">
-                <Link href="/bitcoin">Bitcoin</Link>
-                <Link href="/ethereum">Ethereum</Link>
+                <Link href="/blockchains">Blockchains</Link>
                 <Link href="/impact">Impact</Link>
             </nav>
         </nav>

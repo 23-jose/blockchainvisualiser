@@ -1,0 +1,19 @@
+[
+  { "year": 2009, "energy": 50, "description": "Bitcoin genesis block mined" },
+  { "year": 2010, "energy": 100, "description": "Early mining adoption" },
+  { "year": 2011, "energy": 200, "description": "More miners join network" },
+  { "year": 2012, "energy": 350, "description": "Mining difficulty increases" },
+  { "year": 2013, "energy": 500, "description": "Bitcoin price surge" },
+  { "year": 2014, "energy": 650, "description": "Major mining pools expand" },
+  { "year": 2015, "energy": 800, "description": "Ethereum launch" },
+  { "year": 2016, "energy": 1000, "description": "Crypto market growth" },
+  { "year": 2017, "energy": 1300, "description": "ICO boom" },
+  { "year": 2018, "energy": 1600, "description": "DeFi early adoption" },
+  { "year": 2019, "energy": 1900, "description": "Energy consumption rises" },
+  { "year": 2020, "energy": 2200, "description": "Renewable energy adoption begins" },
+  { "year": 2021, "energy": 2500, "description": "NFT craze increases usage" },
+  { "year": 2022, "energy": 2800, "description": "Sustainable mining initiatives" },
+  { "year": 2023, "energy": 3100, "description": "More green energy integration" },
+  { "year": 2024, "energy": 3300, "description": "Projected energy usage" },
+  { "year": 2025, "energy": 3500, "description": "Future projection" }
+]
