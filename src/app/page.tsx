@@ -8,7 +8,7 @@ export default function HomePage() {
         <img src="/LogoCube.png" alt="LogoPicture" className="w-35 h-auto"/>
         <h1 className="font-semibold pt-5 text-5xl max-w-xs md:max-w-lg" style={{ lineHeight: '1.2' }}>Welcome to Blockchain Visualiser</h1>
         <p className="pt-3 text-2xl max-w-xs md:max-w-lg">
-          Select a blockchain and visualise its transactions, or visit the impact page to see the environmental impact of these technologies
+          Select a blockchain and visualize its transactions, or visit the impact page to see the environmental impact of these technologies
         </p>
       </div>
     </main>

@@ -10,6 +10,7 @@ export default function BlockchainsPage() {
         <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 justify-center text-xl pt-6">
           <NavigationCard text="Bitcoin" link="/blockchains/bitcoin" />
           <NavigationCard text="Ethereum" link="/blockchains/ethereum"/>
+          <NavigationCard text="..." link=""/>
         </div> 
       </div>
     </div>

@@ -1,24 +1,33 @@
-import Button from "../../../../components/Button";
+"use client";
+
 import NavigationBar from "../../../../components/NavigationBar";
 import EnergyGraph from "../../../../components/EnergyGraph";
-import { MdArrowBackIosNew } from "react-icons/md";
-import Link from "next/link";
-import type { DataPoint } from "../../../../components/EnergyGraph";
-import graphDataFile from "../../../../data/graphDataPoints.json";
-
-const graphData = graphDataFile as DataPoint[];
+import bitcoinData from "../../../../data/bitcoinGraphLine.json";
+import ethereumData from "../../../../data/ethereumGraphLine.json";
+import countryData from "../../../../data/countryConsumptionGraph.json";
 
 export default function GraphPage() {
   return (
-    <div className="min-h-screen bg-[#2E2E2E] text-white">
-      <NavigationBar></NavigationBar>
-      <div className="h-full w-full flex items-center justify-center px-18 py-20">
-        <div><EnergyGraph
-          dataFile={graphData}
-          color="#00C49F"
-          title="Blockchain Energy Consumption"></EnergyGraph>
+    <main className="min-h-screen bg-[#2E2E2E] text-white">
+      <NavigationBar />
+
+      <div className="h-full w-full flex flex-col items-center justify-center px-4 md:px-16 pt-20">
+        <div className="text-4xl md:text-5xl pb-8">Energy Expenditure Over Time</div>
+      </div>
+
+      <div className="h-full w-full px-8 md:px-16 flex justify-center">
+        <div className="w-full max-w-7xl">
+          <EnergyGraph
+            line={[
+              { name: "Bitcoin", data: bitcoinData, color: "#F7931A" },
+              { name: "Ethereum", data: ethereumData, color: "#1C1CFF" },
+            ]}
+            scatter={[
+              { name: "Country Consumption", data: countryData, color: "#FFD900" },
+            ]}
+          />
         </div>
       </div>
-    </div>
+    </main>
   );
 }
