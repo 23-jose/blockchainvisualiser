@@ -1,0 +1,157 @@
+2025-06-22T09:54:26.343938Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-06-22T09:54:26.344022Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "/Users/joseantunes/Desktop/blockchainvisualiser", pattern: "**/*", negated: false }
+2025-06-22T09:54:26.346164Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-06-22T09:54:26.346200Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "/Users/joseantunes/Desktop/blockchainvisualiser" }
+2025-06-22T09:54:26.349600Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.350822Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/tailwind.config.js"
+2025-06-22T09:54:26.350896Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/postcss.config.mjs"
+2025-06-22T09:54:26.351096Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/README.md"
+2025-06-22T09:54:26.351161Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components"
+2025-06-22T09:54:26.351221Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components/NavigationBar.tsx"
+2025-06-22T09:54:26.351285Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public"
+2025-06-22T09:54:26.351351Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public/file.svg"
+2025-06-22T09:54:26.351389Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public/vercel.svg"
+2025-06-22T09:54:26.351423Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public/next.svg"
+2025-06-22T09:54:26.351456Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public/globe.svg"
+2025-06-22T09:54:26.351488Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public/window.svg"
+2025-06-22T09:54:26.351597Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/package.json"
+2025-06-22T09:54:26.351653Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/tsconfig.json"
+2025-06-22T09:54:26.351773Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/eslint.config.mjs"
+2025-06-22T09:54:26.351817Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/next.config.ts"
+2025-06-22T09:54:26.351885Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src"
+2025-06-22T09:54:26.351985Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app"
+2025-06-22T09:54:26.352078Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin"
+2025-06-22T09:54:26.352148Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin/page.tsx"
+2025-06-22T09:54:26.352198Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/layout.tsx"
+2025-06-22T09:54:26.352228Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/page.tsx"
+2025-06-22T09:54:26.352259Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/globals.css"
+2025-06-22T09:54:26.352328Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact"
+2025-06-22T09:54:26.352403Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact/page.tsx"
+2025-06-22T09:54:26.352469Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum"
+2025-06-22T09:54:26.352525Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum/page.tsx"
+2025-06-22T09:54:26.352589Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.352602Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.352616Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.352623Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 18 file(s)
+2025-06-22T09:54:26.353544Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/package.json"
+2025-06-22T09:54:26.353559Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/page.tsx"
+2025-06-22T09:54:26.353880Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/README.md"
+2025-06-22T09:54:26.353889Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/public/file.svg"
+2025-06-22T09:54:26.353938Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/tsconfig.json"
+2025-06-22T09:54:26.353888Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin/page.tsx"
+2025-06-22T09:54:26.353904Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/layout.tsx"
+2025-06-22T09:54:26.353917Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact/page.tsx"
+2025-06-22T09:54:26.353894Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/tailwind.config.js"
+2025-06-22T09:54:26.353970Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/components/NavigationBar.tsx"
+2025-06-22T09:54:26.353972Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/eslint.config.mjs"
+2025-06-22T09:54:26.354309Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum/page.tsx"
+2025-06-22T09:54:26.354326Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/public/globe.svg"
+2025-06-22T09:54:26.354321Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/next.config.ts"
+2025-06-22T09:54:26.354322Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/public/vercel.svg"
+2025-06-22T09:54:26.354333Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/postcss.config.mjs"
+2025-06-22T09:54:26.354317Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/public/next.svg"
+2025-06-22T09:54:26.354494Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/public/window.svg"
+2025-06-22T09:54:26.354576Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.354594Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.354602Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.354953Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.354977Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.354988Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.354996Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-06-22T09:54:26.355532Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/globals.css"
+2025-06-22T09:54:26.355554Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.355567Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.355575Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.355650Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.355665Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.356021Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.356195Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.356211Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.357024Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components"
+2025-06-22T09:54:26.357117Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public"
+2025-06-22T09:54:26.357371Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src"
+2025-06-22T09:54:26.357441Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app"
+2025-06-22T09:54:26.357506Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin"
+2025-06-22T09:54:26.357629Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact"
+2025-06-22T09:54:26.357710Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum"
+2025-06-22T09:54:26.357793Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.358050Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.358152Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.358164Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.358933Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components"
+2025-06-22T09:54:26.359095Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public"
+2025-06-22T09:54:26.359383Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src"
+2025-06-22T09:54:26.359457Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app"
+2025-06-22T09:54:26.359616Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin"
+2025-06-22T09:54:26.359780Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact"
+2025-06-22T09:54:26.359867Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum"
+2025-06-22T09:54:26.360009Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.362647Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.395904Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.398731Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components"
+2025-06-22T09:54:26.398843Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public"
+2025-06-22T09:54:26.399159Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src"
+2025-06-22T09:54:26.399235Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app"
+2025-06-22T09:54:26.399308Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin"
+2025-06-22T09:54:26.399443Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact"
+2025-06-22T09:54:26.399527Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum"
+2025-06-22T09:54:26.399622Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.399638Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.399647Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.399654Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-06-22T09:54:26.399663Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.399671Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.399678Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.399686Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.399694Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.399702Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.399821Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.399833Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.400993Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components"
+2025-06-22T09:54:26.401104Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public"
+2025-06-22T09:54:26.401480Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src"
+2025-06-22T09:54:26.401564Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app"
+2025-06-22T09:54:26.401664Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin"
+2025-06-22T09:54:26.401847Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact"
+2025-06-22T09:54:26.402133Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum"
+2025-06-22T09:54:26.402243Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.403989Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:26.404561Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:26.404590Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:31.258031Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:31.259410Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components"
+2025-06-22T09:54:31.259497Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components/NavigationBar.tsx"
+2025-06-22T09:54:31.259575Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public"
+2025-06-22T09:54:31.259743Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/package.json"
+2025-06-22T09:54:31.259926Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src"
+2025-06-22T09:54:31.260028Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app"
+2025-06-22T09:54:31.260112Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin"
+2025-06-22T09:54:31.260198Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/page.tsx"
+2025-06-22T09:54:31.260271Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact"
+2025-06-22T09:54:31.260365Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum"
+2025-06-22T09:54:31.260546Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:31.260569Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:31.260580Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:31.260588Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 3 file(s)
+2025-06-22T09:54:31.260688Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/package.json"
+2025-06-22T09:54:31.260695Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/components/NavigationBar.tsx"
+2025-06-22T09:54:31.260729Z  INFO tailwindcss_oxide::scanner: Reading "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/page.tsx"
+2025-06-22T09:54:31.263372Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:31.263443Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:31.263454Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:31.263693Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:31.263719Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:31.263846Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:31.264006Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:31.264022Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:31.264944Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/components"
+2025-06-22T09:54:31.265065Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/public"
+2025-06-22T09:54:31.265379Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src"
+2025-06-22T09:54:31.265556Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app"
+2025-06-22T09:54:31.265662Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/bitcoin"
+2025-06-22T09:54:31.265812Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/impact"
+2025-06-22T09:54:31.265902Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/Users/joseantunes/Desktop/blockchainvisualiser/src/app/ethereum"
+2025-06-22T09:54:31.266001Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:31.266423Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-06-22T09:54:31.266555Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-06-22T09:54:31.266572Z  INFO get_globs: tailwindcss_oxide::scanner: exit

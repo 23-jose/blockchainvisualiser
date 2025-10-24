@@ -1,0 +1,9 @@
+[
+  { "year": 2008, "energy": 0, "description": "Before Bitcoin Launch" },
+  { "year": 2017.2, "energy": 9.59, "description": "Digiconomist, Oct. 2025" },
+  { "year": 2017.99, "energy": 36.63, "description": "Digiconomist, Oct. 2025" },
+  { "year": 2018, "energy": 45.06, "description": "Digiconomist, Oct. 2025" },
+  { "year": 2019.5, "energy": 70.42, "description": "Digiconomist, Oct. 2025" },
+  { "year": 2021, "energy": 171.42, "description": "S. Chamanara et al., Oct. 2023" },
+  { "year": 2025, "energy": 200.57, "description": "Digiconomist, Oct. 2025" }
+]

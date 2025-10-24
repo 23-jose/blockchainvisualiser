@@ -1,0 +1,8 @@
+[
+  { "year": 2016, "energy": 50.35, "description": "Portugal" },
+  { "year": 2020, "energy": 50.03, "description": "Portugal" },
+  { "year": 2021, "energy": 70.29, "description": "Czechia" },
+  { "year": 2023, "energy": 212.60, "description": "Thailand" },
+  { "year": 2023, "energy": 54.44, "description": "Portugal" }
+
+]
